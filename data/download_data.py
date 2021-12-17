@@ -38,4 +38,4 @@ def main(url, file_path):
     assert extension == '.csv', f'Wrong extesnion type. Extension has to be a {extension}'
 
 if __name__ == '__main__':
-  main(opt['--url'], opt['--file_path'])
+    main(opt['--url'], opt['--file_path'])
